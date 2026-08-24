@@ -79,7 +79,7 @@ concurrency:
 jobs:
   full-data-motion-stratified-accad:
     name: Full-data private ACCAD benchmark on self-hosted runner
-    runs-on: [self-hosted]
+    runs-on: [self-hosted, data-so3-accad-v1]
     timeout-minutes: 4320
     env:
       CONFIG_PATH: ${{ inputs.config_path }}
