@@ -1,0 +1,4 @@
+---
+self-hosted-runner:
+  labels:
+    - data-so3-accad-v1
